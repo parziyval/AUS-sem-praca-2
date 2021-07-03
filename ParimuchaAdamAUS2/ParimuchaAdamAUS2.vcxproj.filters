@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="kriterium">
+      <UniqueIdentifier>{8314433e-d161-4bdc-9feb-89b6d5f95007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="struktury">
+      <UniqueIdentifier>{b7c9598a-cce9-4020-87c9-5c0cac053bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter">
+      <UniqueIdentifier>{f6be8cd3-d69e-480a-833a-902772edea6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{bd995e76-3a8d-4545-b877-ef7b79a54c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uzemna_jednotka">
+      <UniqueIdentifier>{1adb49f2-3dbd-41ba-8449-a09c1149ea98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kriterium\BJ">
+      <UniqueIdentifier>{7f9de99a-00f1-4945-be2a-3e049779394b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kriterium\UJ">
+      <UniqueIdentifier>{64ceec4a-68d6-4fc0-8f92-f80688c10be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter\UJ">
+      <UniqueIdentifier>{024f8fdb-53c7-4be6-8761-5d6e1526a58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aplikacia">
+      <UniqueIdentifier>{af89398f-5907-415f-9ed6-c7f6a10a7d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="triedenie">
+      <UniqueIdentifier>{a74e958b-c845-4880-9687-e46ef1d918e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kriterium.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoskupenieBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multi_way_tree.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="sequence_table.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="structure_iterator.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="array_list.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="linked_list.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="unsorted_sequence_table.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_routines.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_structure_types.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPodlaHodnoty.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPodlaIntervalu.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="heap_monitor.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="UzemnaJednotka.h">
+      <Filter>uzemna_jednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUJNazov.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Obec.h">
+      <Filter>uzemna_jednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="Kraj.h">
+      <Filter>uzemna_jednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="Okres.h">
+      <Filter>uzemna_jednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="Stat.h">
+      <Filter>uzemna_jednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="sorted_sequence_table.h">
+      <Filter>struktury</Filter>
+    </ClInclude>
+    <ClInclude Include="UniverzalnyFilter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJ.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJNazov.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJTyp.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetPreProdObyv.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetProdObyv.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetPoProdObyv.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetObyv.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJCelkovaVymera.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJZastavanaPlocha.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJZastavanost.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumBJ.h">
+      <Filter>kriterium\BJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumBJTyp.h">
+      <Filter>kriterium\BJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumBJPocetIzieb.h">
+      <Filter>kriterium\BJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumBJPocetOsob.h">
+      <Filter>kriterium\BJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumBJPocet.h">
+      <Filter>kriterium\BJ</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumTypUJ.h">
+      <Filter>uzemna_jednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="ZlozenyFilter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Funkcionalita3.h">
+      <Filter>aplikacia</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPrislusnost.h">
+      <Filter>kriterium\UJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Triedenie.h">
+      <Filter>triedenie</Filter>
+    </ClInclude>
+    <ClInclude Include="Funkcionalita4.h">
+      <Filter>aplikacia</Filter>
+    </ClInclude>
+    <ClInclude Include="Aplikacia.h">
+      <Filter>aplikacia</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZoskupenieBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.cpp">
+      <Filter>struktury</Filter>
+    </ClCompile>
+    <ClCompile Include="ds_routines.cpp">
+      <Filter>struktury</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>struktury</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="UzemnaJednotka.cpp">
+      <Filter>uzemna_jednotka</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterUJNazov.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Obec.cpp">
+      <Filter>uzemna_jednotka</Filter>
+    </ClCompile>
+    <ClCompile Include="Kraj.cpp">
+      <Filter>uzemna_jednotka</Filter>
+    </ClCompile>
+    <ClCompile Include="Okres.cpp">
+      <Filter>uzemna_jednotka</Filter>
+    </ClCompile>
+    <ClCompile Include="Stat.cpp">
+      <Filter>uzemna_jednotka</Filter>
+    </ClCompile>
+    <ClCompile Include="Funkcionalita3.cpp">
+      <Filter>aplikacia</Filter>
+    </ClCompile>
+    <ClCompile Include="Funkcionalita4.cpp">
+      <Filter>aplikacia</Filter>
+    </ClCompile>
+    <ClCompile Include="Aplikacia.cpp">
+      <Filter>aplikacia</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
